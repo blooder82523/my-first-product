@@ -1,0 +1,840 @@
+
+.footer{
+    position: relative;
+    top: 100px;
+    height: 50px;
+    background-color: #CC543A;
+   
+
+}
+
+.index-body{
+    background-image: url(/img/koi/back05.webp);
+    background-repeat: repeat;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: -50px;
+    background-color: #fff;
+   
+}   
+
+nav{
+    display: flex;
+    
+}
+.navitem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-right: 24px;
+
+}
+.navitem_list{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+  
+.list_item{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 25px;
+}
+
+div{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.top_title{
+    max-width: 115px;
+    margin: 0 auto 20px;
+    position: relative;
+    width: 100%;
+    font-family: 'Train One', cursive;
+    display:flex;
+    justify-content: center; 
+}
+.list_item{
+    
+        width: 150px;
+        height: 40px;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+        line-height: 40px;
+        color:#CC543A;
+        background-color: transparent;
+        position: relative;
+        transition: all .3s linear;
+    }
+    .list_item > p{
+        position: relative;
+        z-index: 1;
+    }
+    .list_item::before{
+        content: "";
+        width: 20px;
+        height: 20px;
+        display: block;
+        box-sizing: border-box;
+        border-top: 1px solid   #B54434;
+        border-left: 1px solid #B54434;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all .3s linear;
+    }
+    .list_item::after{
+        content: "";
+        width: 20px;
+        height: 20px;
+        display: block;
+        box-sizing: border-box;
+        border-bottom: 1px solid #B54434;
+        border-right: 1px solid #B54434;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transition: all .3s linear;
+    }
+    .list_item:hover::before,
+    .list_item:hover::after{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .top_list{
+        border: 0;
+        margin: 10px;
+        padding: 5px;
+        width: max-content;
+        
+    }
+    a {
+        text-decoration:none;
+    }
+
+    a:hover{
+        opacity: 0.5;
+    }
+/* meau list */
+    .iconlist{
+        display: flex;
+        justify-content:flex-end;
+        -webkit-box-align: center;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 30px;
+        box-sizing: border-box;
+    }
+    /* header icon */
+  .top-inner-list{
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+    
+  }
+  /* 外部連結區 */
+    .color-red{
+        color: red;
+    }
+    .story-text{
+    padding-top: 2.5em;
+    margin: 0;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    letter-spacing: .05em;
+    font-family: 'Kiwi Maru', serif;
+    }
+    .story-img-l{
+    float: left;
+    width: 50%;
+    padding-top: calc(600 / 1000 * 50%);
+    margin: 5px 2em 0 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    }
+    .story-img-r{
+    float: right;
+    width: 50%;
+    padding-top: calc(600/ 1000 * 50%);
+    margin: 5px 2em 0 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    }
+  .story_box{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: inherit;
+    -webkit-text-size-adjust: 100%;
+    justify-content:center;
+    align-items:center;
+ 
+}
+.storybox_inner{
+background-image: url(/img/koi/backinner.webp);
+overflow: hidden;
+background: #f9f6f1;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+justify-content:center;
+align-items:center;
+
+}
+.intro_area{
+background-image: url(/img/koi/back04.webp);
+padding: 50px 20px;
+position: relative;
+padding: 100px 0 95px;
+background-repeat: repeat;
+background-size: 100%;
+/* padding: 100px 0 95px; */
+background-repeat: repeat;
+background-size: 800px;
+box-sizing: inherit;
+justify-content:center;
+align-items:center;
+
+}
+section{
+display: block;
+}
+.intro_area_inner{
+width: 100%;
+max-width: 1000px;
+padding: 0 20px;
+margin: 0 auto;
+justify-content:center;
+align-items:center;
+
+}
+.intro_area_box{
+word-break: break-all;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline
+word-break: break-all;
+justify-content:center;
+align-items:center;
+
+}
+.intro_area_body_box{
+padding: 60px 68px 80px;
+border: solid 12px #89c7b5;
+position: relative;
+z-index: 2;
+background-color: #fff;
+justify-content:center;
+align-items:center;
+
+}
+.intro_title_box{
+margin: 0 15px;
+border-bottom: solid 1px #222;
+justify-content:center
+align-items:center
+}
+.top_title{
+max-width: 183px;
+margin: 0 auto 20px;
+position: relative;
+width: 100%;
+display: block;
+justify-content:center;
+align-items:center;
+
+}
+.top-title-span{
+padding-top: 19.6721311475%;text-indent: -9999px;
+white-space: nowrap;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+justify-content:center;
+align-items:center;
+}
+intro_box_text{
+
+font-size: 0;
+text-indent: -9999px;
+white-space: nowrap;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+padding-top: 121.25%;
+justify-content:center;
+align-items:center;
+}
+/* 故事大綱區 */
+.chart_box{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+    -webkit-text-size-adjust: 100%;
+ 
+}
+.chart_inner{
+background-image: url(/img/koi/back01.jpg);
+overflow: hidden;
+background: #f9f6f1;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+.chart_area{
+background-image: url(/img/koi/back01.jpg);
+padding: 50px 20px;
+position: relative;
+padding: 100px 0 95px;
+background-repeat: repeat;
+background-size: 100%;
+position: relative;
+padding: 100px 0 95px;
+background-repeat: repeat;
+background-size: 800px;
+box-sizing: inherit;
+}
+
+.chart_area_inner{
+width: 100%;
+max-width: 1000px;
+padding: 0 20px;
+margin: 0 auto;
+}
+.chart_area_box{
+word-break: break-all;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline
+word-break: break-all;
+}
+.chart_area_body_box{
+padding: 60px 68px 80px;
+border: solid 12px #B481BB;
+position: relative;
+z-index: 2;
+background-color: #fff;
+
+}
+.chart_title_box{
+margin: 0 15px;
+border-bottom: solid 1px #222;
+}
+
+.chart-title-span{
+padding-top: 19.6721311475%;text-indent: -9999px;
+white-space: nowrap;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+chart_box_text{
+
+font-size: 0;
+text-indent: -9999px;
+white-space: nowrap;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+padding-top: 121.25%;
+}
+.chart-list{
+    margin-bottom: 30px;
+    flex-wrap: nowrap;
+    display: flex;
+    overflow: hidden;
+}
+.chart-imgbox{
+    -webkit-box-flex: 0;
+    flex: none;
+    width: 240px;
+    margin-right: 20px;
+    -webkit-user-select: none;
+}
+.chart-list-yuki{
+    background-image: url(/img/koi/bg_red_pc.webp);
+    padding-top: 60px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+}
+.chart-list-kuro{
+    background-image: url(/img/koi/bg_black_pc.webp);
+    padding-top: 60px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+}
+.chart-list-lion{
+    background-image: url(/img/koi/bg_yellow_pc.webp);
+    padding-top: 60px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+}
+.chart-list-izumi{
+    background-image: url(/img/koi/bg_red_pc.webp);
+    padding-top: 60px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+}
+
+.chart-img{
+    width: 100%%;
+    ertical-align: bottom;
+    max-width: 100%;
+    position: relative;
+    left: 350px;
+}
+.cast-name{
+    width: 420px;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    color:#B54434 ;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.chart-detail{
+    max-height: 999999px;
+    -webkit-text-size-adjust: 100%;
+    color: #646464;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 18px;
+}
+/* 人物介紹區 */
+.book_box{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+    -webkit-text-size-adjust: 100%;
+ 
+}
+.book_inner{
+background-image: url(/img/koi/back06.webp);
+overflow: hidden;
+background: #f9f6f1;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+.book_area{
+background-image: url(/img/koi/back06.webp);
+padding: 50px 20px;
+position: relative;
+padding: 100px 0 95px;
+background-repeat: repeat;
+background-size: 100%;
+position: relative;
+padding: 100px 0 95px;
+background-repeat: repeat;
+background-size: 800px;
+box-sizing: inherit;
+}
+
+.book_area_inner{
+width: 100%;
+max-width: 1000px;
+padding: 0 20px;
+margin: 0 auto;
+}
+.book_area_box{
+word-break: break-all;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline
+word-break: break-all;
+}
+.book_area_body_box{
+padding: 60px 68px 80px;
+border: solid 12px #F75C2F;
+position: relative;
+z-index: 2;
+background-color: #fff;
+
+}
+.book_title_box{
+margin: 0 15px;
+border-bottom: solid 1px #222;
+}
+
+.book-title-span{
+padding-top: 19.6721311475%;text-indent: -9999px;
+white-space: nowrap;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+book_box_text{
+
+font-size: 0;
+text-indent: -9999px;
+white-space: nowrap;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+padding-top: 121.25%;
+text-align:center
+}
+.book-box-dateil{
+    width: 800px;
+    margin: 50px auto;
+    border:solid 1px gray;
+ overflow: hidden;
+}
+.bookimg{
+    width: 300px;
+    
+    padding: 20px;
+}
+.bookimg img{
+    display: block;
+    width: 100%;
+    position: relative;
+    right: 40px;
+}
+.bookname{
+    width: 430px;
+    padding: 20px 20px 0px 0px;
+    font-family: 'Reggae One', cursive;
+}
+.bookname h2{
+    position: relative;
+    font-family: 'Reggae One', cursive;
+    font-size: 30px;
+}
+.bookname p{
+    position: relative;
+    left: 130px;
+    font-size: 30px;
+}
+.comic-btn{
+    width: 100%;
+    max-width: 340px;
+    margin: 45px auto 0;
+}
+.comic-btn>a{
+    position: relative;
+    right: 50px;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .15em;
+    word-break: break-all;
+    background: #222;
+    border: 1px solid #222;
+    border-radius: 50px;
+}
+.autor-title{
+    padding: 12px 30px;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #fff;
+    letter-spacing: .8px;
+    background-color: #89c7b5;
+    font-family: 'Kiwi Maru', serif;
+}
+.autor-text{
+    padding: 14px 30px 23px;
+    font-size: 1.6rem;
+    line-height: 1.81;
+    text-align: left;
+    letter-spacing: .8px;
+    background-color: rgba(137,199,181,.2);
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+
+}
+/* 演員列表 */
+.caststaff-box{
+    background-image: url(/img/koi/back02.webp);
+}
+.caststaff-title{
+    max-width: 400px;
+    margin: 0 auto 65px;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    width: 100%;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 2rem;
+}
+
+.cast_box{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+    -webkit-text-size-adjust: 100%;
+ 
+}
+.cast_inner{
+overflow: hidden;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+.cast_area{
+/* background-image: url(/img/koi/back02.webp); */
+padding: 50px 20px;
+position: relative;
+padding: 100px 0 95px;
+background-repeat: repeat;
+background-size: 100%;
+position: relative;
+padding: 100px 0 95px;
+background-repeat: repeat;
+background-size: 800px;
+box-sizing: inherit;
+}
+
+.cast_area_inner{
+width: 100%;
+max-width: 1000px;
+padding: 0 20px;
+margin: 0 auto;
+}
+.cast_area_box{
+word-break: break-all;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline
+word-break: break-all;
+}
+.cast_area_body_box{
+padding: 60px 68px 80px;
+border: solid 12px #E1B11B;
+position: relative;
+z-index: 2;
+background-color: #fff;
+
+}
+.cast_title_box{
+margin: 0 15px;
+border-bottom: solid 1px #222;
+}
+
+.cast-title-span{
+padding-top: 19.6721311475%;
+text-indent: -9999px;
+white-space: nowrap;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+cast_box_text{
+
+font-size: 0;
+text-indent: -9999px;
+white-space: nowrap;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+padding-top: 121.25%;
+}
+.cast-list{
+    list-style: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.cast-item{
+    margin-top: 23px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    display: list-item;
+    text-align: -webkit-match-parent;
+
+}
+.cast-item .cast-first{
+    width: 50%;
+    line-height: 2;
+    text-align: left;
+    letter-spacing: 1.92px;
+    position:relative;
+    left: 40px;
+    font-family: 'Yomogi', cursive;
+    font-weight: bold;
+
+}
+
+.cast-f{
+    color: #6f6f6f;
+    font-size: 1.4rem;
+    margin: 0 20px 0 20px;
+}
+
+.cast-s{
+    font-size: 1.6rem;
+    margin: 0 20px 0 20px;
+    color: #0F2540;
+
+}
+
+/* 工作人員列表 */
+
+.staff_box{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+    -webkit-text-size-adjust: 100%;
+ 
+}
+.staff_inner{
+/* background-image: url(/img/koi/back02.webp); */
+overflow: hidden;
+background: #f9f6f1;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+.staff_area{
+/* background-image: url(/img/koi/back02.webp); */
+padding: 50px 20px;
+position: relative;
+padding: 100px 0 95px;
+background-repeat: repeat;
+background-size: 100%;
+position: relative;
+padding: 100px 0 95px;
+background-repeat: repeat;
+background-size: 800px;
+box-sizing: inherit;
+}
+
+.staff_area_inner{
+width: 100%;
+max-width: 1000px;
+padding: 0 20px;
+margin: 0 auto;
+}
+.staff_area_box{
+word-break: break-all;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline
+word-break: break-all;
+}
+.staff_area_body_box{
+padding: 60px 68px 80px;
+border: solid 12px #6699A1;
+position: relative;
+z-index: 2;
+background-color: #fff;
+
+}
+.staff_title_box{
+margin: 0 15px;
+border-bottom: solid 1px #222;
+}
+
+.staff-title-span{
+padding-top: 19.6721311475%;text-indent: -9999px;
+white-space: nowrap;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+/*  */
+.staff-list{
+    list-style: none;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    justify-content: center;
+
+}
+.staff-item{
+    text-align: center;
+    position: relative;
+    right: 55px;
+    font-family: 'Yomogi', cursive;
+    font-weight: bold;
+
+}
+.staff-item .staff-f{
+    font-size: 1.4rem;
+    color: #6f6f6f;
+    letter-spacing: 1.68px;
+
+}
+.staff-s{
+    margin-top: 10px;
+    font-size: 20px;
+}

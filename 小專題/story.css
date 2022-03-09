@@ -1,0 +1,91 @@
+.story_box{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: inherit;
+    -webkit-text-size-adjust: 100%;
+ 
+}
+.storybox_inner{
+background-image: url(/img/koi/backinner.webp);
+overflow: hidden;
+background: #f9f6f1;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+.intro_area{
+background-image: url(/img/koi/back04.webp);
+padding: 50px 20px;
+position: relative;
+padding: 100px 0 95px;
+background-repeat: repeat;
+background-size: 100%;
+position: relative;
+padding: 100px 0 95px;
+background-repeat: repeat;
+background-size: 800px;
+box-sizing: inherit;
+}
+section{
+display: block;
+}
+.intro_area_inner{
+width: 100%;
+max-width: 1000px;
+padding: 0 20px;
+margin: 0 auto;
+}
+.intro_area_box{
+word-break: break-all;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline
+word-break: break-all;
+}
+.intro_area_body_box{
+padding: 60px 68px 80px;
+border: solid 12px #89c7b5;
+position: relative;
+z-index: 2;
+background-color: #fff;
+
+}
+.intro_title_box{
+margin: 0 15px;
+border-bottom: solid 1px #222;
+}
+.top_title{
+max-width: 183px;
+margin: 0 auto 20px;
+position: relative;
+width: 100%;
+display: block;
+
+}
+.top-title-span{
+padding-top: 19.6721311475%;text-indent: -9999px;
+white-space: nowrap;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+intro_box_text{
+
+font-size: 0;
+text-indent: -9999px;
+white-space: nowrap;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+padding-top: 121.25%;
+}
